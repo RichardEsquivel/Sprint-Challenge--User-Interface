@@ -102,6 +102,12 @@ header nav a:hover {
     color: grey;
 }
 
+.container .jumbo {
+    margin-top: 35px;
+    margin-bottom: 25px;
+    width: 100%;
+}
+
 .top-content {
     display: flex;
     flex-wrap: wrap;
@@ -119,6 +125,7 @@ header nav a:hover {
 .middle-content {
     margin-bottom: 20px;
     border-bottom: 1px dashed black;
+    width: 800px;
 }
 
 .middle-content h2 {
@@ -140,7 +147,7 @@ header nav a:hover {
     color: white;
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: space-evenly;
 }
 
 .bottom-content {
