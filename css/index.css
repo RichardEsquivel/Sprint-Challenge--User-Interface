@@ -69,7 +69,27 @@ p {
 .container {
     width: 800px;
     margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
 }
+
+.lambda-black-logo {
+    margin-right: 35px;
+    margin-top: 18px;
+}
+
+header {
+    width: 100%;
+    display: flex;
+}
+
+header nav {
+    margin-top: 45px;
+    width: 575px;
+    justify-content: space-between;
+    display: flex;
+}
+
 
 .top-content {
     display: flex;
