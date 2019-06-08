@@ -115,11 +115,11 @@ header nav a:hover {
     margin-bottom: 20px;
 
 }
-.container .about-body .cards{
+ .container .cards{
     display:flex;
 	flex-wrap: wrap;
 	justify-content: space-between;
-	width: 45.5%;
+	width: 300px;
 	padding: 20px;
 	margin: 10px;
 }
