@@ -34,13 +34,23 @@ Edit this document to include your answers after each question. Make sure to lea
 
 1. If you were to describe semantic HTML to the next cohort of students, what would you say?
 
+Semantic HTML introduces meaning to the HTML of a webpage by indicating header or body instead of just a div element those looking upon the code afterward are given understanding as to what that particular element represents within the construction of the webpage. As opposed to there just being an entire page of div elements with classes which has you rely on whatever naming convention the developer employed to name classes.
+
 2. Name two big differences between ```display: block;``` and ```display: inline;```.
+1- Display block takes up the whole width of a page and causes a new element to have to start on a new line. For Display: inline elements can be next to each other without having to start a new line and any height and width properties will have no effect on inline. 
 
 3. What are the 4 areas of the box model?
 
+From inward to outward: Content, Padding, Border, Margin
+
 4. While using flexbox, what axis does the following property work on: ```align-items: center```?
 
+The cross axis.
+
 5. Explain why git is valuable to a team of developers.
+
+Git allows there to be a centralized repository where changes to code can be tracked and allows the documentation of all changes and proposed changes to a piece of code. It allows there to be visibility on what is being developed by all developers involved. It also allows individual members or groups to branch off the master code and test new changes and features in a tracked manner without overwriting or modifying the original code. If a new version of software developed encounters a bug with proper utilization of git exact changes can be tracked and code can be reverted to a working version and knowledge established on what stage and step of development may have caused issues. 
+    It also creates a process where changes to the master code can be reviewed before being implemented through pull requests.
 
 You are expected to be able to answer all these questions. Your responses contribute to your Sprint Challenge grade. Skipping this section *will* prevent you from passing this challenge.
 
